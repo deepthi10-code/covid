@@ -1,5 +1,4 @@
 import logging 
-!pip install python-telegram-bot 
 import os
 
 from Adafruit_IO import Data
