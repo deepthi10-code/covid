@@ -9,7 +9,7 @@ from Adafruit_IO import Client, Feed
 aio = Client(YOUR_AIO_USERNAME,YOUR_AIO_KEY) 
   
 #creating feed 
-new= Feed(name='covid19')  
+new= Feed(name='covidfeed')  
 result= aio.create_feed(new)    
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -60,7 +60,6 @@ def symptom(bot,update):
     bot.message.reply_text(text="type /message to view message to the public")
     
 
-    
 def check(bot,update): 
 
     chat_id = bot.message.chat_id
@@ -71,7 +70,7 @@ def check(bot,update):
 def normal_temp(bot,update): 
 
     value = Data(value=1)
-    value_send = aio.create_data('covid19',value)
+    value_send = aio.create_data('covidfeed',value)
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="Your body temperature is ideal, please eat healthy food")
 
@@ -87,7 +86,7 @@ def normal_temp(bot,update):
 def fever_temp(bot,update):
 
     value = Data(value=0)
-    value_send = aio.create_data('covid19',value)
+    value_send = aio.create_data('covidfeed',value)
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="You are most likely to have fever, Please be cautious")
 
