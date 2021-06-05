@@ -8,7 +8,7 @@ from Adafruit_IO import Client, Feed
 aio = Client(YOUR_AIO_USERNAME,YOUR_AIO_KEY) 
   
 #creating feed 
-new= Feed(name='covidfeed')  
+new= Feed(name='covidfeed1')  
 result= aio.create_feed(new)    
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
