@@ -1,7 +1,7 @@
 import logging 
 import os
 
-from Adafruit_IO import Data
+from Adafruit_IO import Data 
 YOUR_AIO_USERNAME=os.getenv('YOUR_AIO_USERNAME') #ADAFRUIT_IO_USERNAME 
 YOUR_AIO_KEY = os.getenv('YOUR_AIO_KEY') #ADAFRUIT_IO_KEY
 from Adafruit_IO import Client, Feed
