@@ -59,7 +59,7 @@ def symptom(bot,update):
     bot.message.reply_text(text="type /message to view message to the public")
     
 
-def check(bot,update): 
+'''def check(bot,update): 
 
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="What's your body temperature?")
@@ -96,8 +96,7 @@ def fever_temp(bot,update):
     bot.message.reply_text(text="type /precautions to know about the precationary measures")
     bot.message.reply_text(text="type /shopping to shop medical items")
     bot.message.reply_text(text="type /message to view message to the public")
-    
-
+'''
 def cases_statistics(bot,update):
     
     chat_id = bot.message.chat_id
