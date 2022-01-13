@@ -23,7 +23,7 @@ def start(bot,update):
     bot.message.reply_text("HI, I'M COVID-19 BOT")
     bot.message.reply_text("type /covid_info to know about the virus")
     bot.message.reply_text("type /symptom to know about the symptoms")
-    bot.message.reply_text("type /check for temperature check")
+   # bot.message.reply_text("type /check for temperature check")
     bot.message.reply_text("type /cases_statistics to know about the cases worlwide")
     bot.message.reply_text("type /precautions to know about the precationary measures")
     bot.message.reply_text("type /shopping to shop medical items")
@@ -37,7 +37,7 @@ def covid_info(bot,update):
 
     bot.message.reply_text(text="type /covid_info to know about the virus")
     bot.message.reply_text(text="type /symptom to know about the symptoms")
-    bot.message.reply_text(text="type /check for temperature check")
+   # bot.message.reply_text(text="type /check for temperature check")
     bot.message.reply_text(text="type /cases_statistics to know about the cases worlwide")
     bot.message.reply_text(text="type /precautions to know about the precationary measures")
     bot.message.reply_text(text="type /shopping to shop medical items")
@@ -52,7 +52,7 @@ def symptom(bot,update):
 
     bot.message.reply_text(text="type /covid_info to know about the virus")
     bot.message.reply_text(text="type /symptom to know about the symptoms")
-    bot.message.reply_text(text="type /check for temperature check")
+   # bot.message.reply_text(text="type /check for temperature check")
     bot.message.reply_text(text="type /cases_statistics to know about the cases worlwide")
     bot.message.reply_text(text="type /precautions to know about the precationary measures")
     bot.message.reply_text(text="type /shopping to shop medical items")
@@ -75,7 +75,7 @@ def normal_temp(bot,update):
 
     bot.message.reply_text(text="type /covid_info to know about the virus")
     bot.message.reply_text(text="type /symptom to know about the symptoms")
-    bot.message.reply_text(text="type /check for temperature check")
+   # bot.message.reply_text(text="type /check for temperature check")
     bot.message.reply_text(text="type /cases_statistics to know about the cases worlwide")
     bot.message.reply_text(text="type /precautions to know about the precationary measures")
     bot.message.reply_text(text="type /shopping to shop medical items")
@@ -91,7 +91,7 @@ def fever_temp(bot,update):
 
     bot.message.reply_text(text="type /covid_info to know about the virus")
     bot.message.reply_text(text="type /symptom to know about the symptoms")
-    bot.message.reply_text(text="type /check for temperature check")
+    #bot.message.reply_text(text="type /check for temperature check")
     bot.message.reply_text(text="type /cases_statistics to know about the cases worlwide")
     bot.message.reply_text(text="type /precautions to know about the precationary measures")
     bot.message.reply_text(text="type /shopping to shop medical items")
@@ -105,7 +105,7 @@ def cases_statistics(bot,update):
 
     bot.message.reply_text(text="type /covid_info to know about the virus")
     bot.message.reply_text(text="type /symptom to know about the symptoms")
-    bot.message.reply_text(text="type /check for temperature check")
+    #bot.message.reply_text(text="type /check for temperature check")
     bot.message.reply_text(text="type /cases_statistics to know about the cases worlwide")
     bot.message.reply_text(text="type /precautions to know about the precationary measures")
     bot.message.reply_text(text="type /shopping to shop medical items")
@@ -120,7 +120,7 @@ def precautions(bot,update):
 
     bot.message.reply_text(text="type /covid_info to know about the virus")
     bot.message.reply_text(text="type /symptom to know about the symptoms")
-    bot.message.reply_text(text="type /check for temperature check")
+    #bot.message.reply_text(text="type /check for temperature check")
     bot.message.reply_text(text="type /cases_statistics to know about the cases worlwide")
     bot.message.reply_text(text="type /precautions to know about the precationary measures")
     bot.message.reply_text(text="type /shopping to shop medical items")
@@ -189,9 +189,9 @@ def main(): #mainfunction
   dp.add_handler(CommandHandler('mask',mask))
   dp.add_handler(CommandHandler('sanitizer',sanitizer))
   dp.add_handler(CommandHandler('gloves',gloves))
-  dp.add_handler(CommandHandler('check',check))
+  '''dp.add_handler(CommandHandler('check',check))
   dp.add_handler(CommandHandler('normal_temp',normal_temp))
-  dp.add_handler(CommandHandler('fever_temp',fever_temp))
+  dp.add_handler(CommandHandler('fever_temp',fever_temp))'''
   dp.add_handler(CommandHandler('message',message))
 
   u.start_polling()
