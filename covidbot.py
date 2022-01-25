@@ -96,6 +96,10 @@ def precautions(bot,update):
     update.bot.sendPhoto(chat_id=chat_id, photo="https://i.pinimg.com/originals/f3/98/37/f39837e2c85756f8b7a2bd39bd9c3024.jpg",caption="Please wear a mask while you step out!\n")
     bot.message.reply_text(text="To prevent the spread of COVID-19:\n*Clean your hands often\n Use soap and water, or an alcohol-based hand rub.\n*Maintain distance from anyone who is coughing or sneezing.\n*Wear a mask when physical distancing is not possible.\n*Don’t touch your eyes, nose or mouth.\n*Stay home when you feel unwell.\n*If you have a fever, cough and difficulty breathing, seek medical attention.")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
+def vaccine(bot,update):
+    chat_id = bot.message.chat_id
+    bot.message.reply_text(text="Arm yourself against covid-19, please get your dose of vaccination\nclick below to know about the various vaccines developed for the covid-19")
+    bot.message.reply_text("https://covid19.trackvaccines.org/agency/who/")
    
 def mental_health(bot,update):
     chat_id = bot.message.chat_id
