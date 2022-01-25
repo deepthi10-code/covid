@@ -25,12 +25,7 @@ def covid_info(bot,update):
     bot.message.reply_text(text="COVID-19 is a disease caused by a new strain of coronavirus. CO stands for corona, VI for virus, and D for disease. Formerly, this disease was referred to as 2019 novel coronavirus or 2019-nCoV")
     update.bot.sendPhoto(chat_id=chat_id,photo='https://www.gavi.org/sites/default/files/thumbnail/cdc-w9KEokhajKw-unsplash_h2.jpg')
 
-    bot.message.reply_text(text="type /covid_info to know about the virus")
-    bot.message.reply_text(text="type /symptom to know about the symptoms")
-    bot.message.reply_text(text="type /cases_statistics to know about the cases worlwide")
-    bot.message.reply_text(text="type /precautions to know about the precationary measures")
-    bot.message.reply_text(text="type /shopping to shop medical items")
-    bot.message.reply_text(text="type /message to view message to the public")
+    
     bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
     
 def yes(bot,update):
