@@ -175,7 +175,7 @@ def main(): #mainfunction
   dp.add_handler(CommandHandler('no',no))
   dp.add_handler(CommandHandler('mental_health',mental_health))
   dp.add_handler(CommandHandler('happy',happy))
-  dp.add_handler(CommandHandler('Alpha',Alpha))Alpha\n/Beta\n/Gama\n/Delta\n/Mu\n/Omicron
+  dp.add_handler(CommandHandler('Alpha',Alpha))
   dp.add_handler(CommandHandler('Beta',Beta))
   dp.add_handler(CommandHandler('Gama',Gama))
   dp.add_handler(CommandHandler('Delta',Delta))
