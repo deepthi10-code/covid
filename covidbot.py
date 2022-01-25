@@ -46,7 +46,7 @@ def yes(bot,update):
     
 def no(bot,update):
      chat_id = bot.message.chat_id 
-    bot.message.reply_text("Thank you for chatting along with me\nHope you have a great day!")
+     bot.message.reply_text("Thank you for chatting along with me\nHope you have a great day!")
     
     
 def symptom(bot,update):
