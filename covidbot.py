@@ -199,10 +199,6 @@ def gloves(bot,update):
     bot.message.reply_text(text= "https://www.amazon.in/hand-gloves/s?k=hand+gloves")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 
-def message(bot,update):
-    chat_id = bot.message.chat_id
-    bot.message.reply_text(text= "The COVID-19 pandemic has demonstrated the interconnected nature of our world – and that no one is safe until everyone is safe. Only by acting in solidarity can communities save lives and overcome the devastating socio-economic impacts of the virus.")
-    bot.message.reply_text(text= "STAY HOME STAY SAFE,\nDON'T STEP OUT IF NOT NECESSARY!")
 
 def main(): #mainfunction
 
@@ -234,7 +230,7 @@ def main(): #mainfunction
   dp.add_handler(CommandHandler('mask',mask))
   dp.add_handler(CommandHandler('sanitizer',sanitizer))
   dp.add_handler(CommandHandler('gloves',gloves))
-  dp.add_handler(CommandHandler('message',message))
+
 
   u.start_polling()
   u.idle()
