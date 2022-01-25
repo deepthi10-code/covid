@@ -137,7 +137,7 @@ def bored(bot,update):
     bot.message.reply_text("Write in your journal. It’s a wonderful way to document your life\nHave a power nap, so you'll feel charged up later on.")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
    
-def sleep deprived(bot,update):
+def sleep_deprived(bot,update):
     chat_id = bot.message.chat_id
     #update.bot.sendPhoto(chat_id=chat_id,photo="")
     bot.message.reply_text("Try going to bed and waking up at the same times every day")
