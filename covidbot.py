@@ -78,12 +78,12 @@ def mental_health(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="select your suitable mood right now")
     bot.message.reply_text("/happy")
-   ''' bot.message.reply_text("/sad")
-    bot.message.reply_text("/bored")
-    bot.message.reply_text("/sleep deprived")
-    bot.message.reply_text("/angry")
-    bot.message.reply_text("/nervous")
-    '''
+    #bot.message.reply_text("/sad")
+    #bot.message.reply_text("/bored")
+    #bot.message.reply_text("/sleep deprived")
+    #bot.message.reply_text("/angry")
+    #bot.message.reply_text("/nervous")
+    
  
 def happy(bot,update):
     chat_id = bot.message.chat_id
