@@ -113,23 +113,61 @@ def happy(bot,update):
     bot.message.reply_text("It's good to know that you are in a happy state of mind")
     bot.message.reply_text(text="Happiness is always a choice, so choose to be happy, keep smiling!")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
-'''                           
+
 def sad(bot,update):
     chat_id = bot.message.chat_id
-    update.bot.sendPhoto(chat_id=chat_id,photo=     
+    bot.message.reply_text("It is ok to feel sad, many people are sailing in the same boat, you are not alone")
+    bot.message.reply_text("Everything changes with time, Nothing is permanent but your willpower matters")
+    bot.message.reply_text("Remember that GOOD MENTAL HEALTH IMPROVES THE OVERALL QUALITY OF LIFE")
+    bot.message.reply_text("IT IS OK TO TALK IT OUT")
+    bot.message.reply_text("If you are feeling depressed, please feel free to contact any of the below mentioned contacts for personalized support")
+    bot.message.reply_text("Parivarthan:- 080- 65333323")
+    bot.message.reply_text("NIMHANS:- 080 46110007")
+    bot.message.reply_text("Roshni Trust:- 4066202000/2001")
+    bot.message.reply_text("Asra:- 9820466726")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
+
 def bored(bot,update):
     chat_id = bot.message.chat_id
-    update.bot.sendPhoto(chat_id=chat_id,photo=
-def sleep_deprived(bot,update):
+    bot.message.reply_text("I would suggest you some activities to get rid of your boredom.")
+    #bot.message.reply_text("Reading is important. If you know how to read, then the whole world opens up to you – Barack Obama")
+    #bot.message.reply_text("Read a good book.....A word after a word after a word is power. It has the power to make your mind and heart free")
+    bot.message.reply_text("Watch TED Talks. Get inspired by watching TED Talks.")
+    bot.message.reply_text("Learn a new language, its fun.")
+    bot.message.reply_text("Write in your journal. It’s a wonderful way to document your life\nHave a power nap, so you'll feel charged up later on.")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
+   
+def sleep deprived(bot,update):
     chat_id = bot.message.chat_id
-    update.bot.sendPhoto(chat_id=chat_id,photo=              
+    #update.bot.sendPhoto(chat_id=chat_id,photo="")
+    bot.message.reply_text("Try going to bed and waking up at the same times every day")
+    bot.message.reply_text("Turn off electronic devices and keep them away")
+    bot.message.reply_text("Avoiding eating 2–3 hours before bedtime")
+    bot.message.reply_text("Practice Meditation, mindfulness training, breathing exercises, yoga and acupressure")
+    #bot.message.reply_text("Turmeric milk will help")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
+
 def angry(bot,update):
     chat_id = bot.message.chat_id
-    update.bot.sendPhoto(chat_id=chat_id,photo=
+    #update.bot.sendPhoto(chat_id=chat_id,photo="")
+    bot.message.reply_text("Anger is a weakness. When anger is recurrent and unmanaged, overall quality of life gets affected")
+    bot.message.reply_text("Think before you speak")
+    bot.message.reply_text("Use humor to release tension")
+    bot.message.reply_text("Get some exercise")
+    bot.message.reply_text("Don't hold a grudge. Identify possible solutions.")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
+
 def nervous(bot,update):
     chat_id = bot.message.chat_id
-    update.bot.sendPhoto(chat_id=chat_id,photo=
-'''    
+    update.bot.sendPhoto(chat_id=chat_id,photo="")
+    bot.message.reply_text("Choose courage over being nervous. Emotions are never permanent") 
+    bot.message.reply_text("Change your focus")
+    bot.message.reply_text("Relax your body")
+    bot.message.reply_text("Get some fresh air, Think you can do it!")
+    bot.message.reply_text("Fuel your body")
+    #bot.message.reply_text("Identify pressure points to calm anger and anxiety")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
+    
 def shopping(bot,update): 
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="You can shop for mask, gloves and sanitizers online")
@@ -175,6 +213,11 @@ def main(): #mainfunction
   dp.add_handler(CommandHandler('no',no))
   dp.add_handler(CommandHandler('mental_health',mental_health))
   dp.add_handler(CommandHandler('happy',happy))
+  dp.add_handler(CommandHandler('sad',sad))
+  dp.add_handler(CommandHandler('nervous',nervous))
+  dp.add_handler(CommandHandler('angry',angry))
+  dp.add_handler(CommandHandler('bored',bored))
+  dp.add_handler(CommandHandler('sleep_deprived',sleep_deprived))
   dp.add_handler(CommandHandler('Alpha',Alpha))
   dp.add_handler(CommandHandler('Beta',Beta))
   dp.add_handler(CommandHandler('Gama',Gama))
