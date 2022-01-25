@@ -31,36 +31,36 @@ def Alpha(bot,update):
     chat_id = bot.message.chat_id 
     bot.message.reply_text(text="In late 2020, experts noted gene mutations in COVID-19 cases seen in people in southeastern England. This variant has since been reported in other countries, including the U.S. Scientists estimate that these mutations could make the virus up to 70% more transmissible, meaning it could spread more easily. Some research has linked this variant to a higher risk of death, but the evidence isn't strong.The mutation on the Alpha variant is on the spike protein, which helps the virus infect its host.")
     bot.message.reply_text("WHO Designation :	Alpha\nLineage :	B1.1.1.7\nFirst detected : United Kingdom\nDate reported : November 2020")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 def Beta(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="The Beta variant appears to spread more easily than the original virus but doesn't seem to cause worse illness.")
     bot.message.reply_text("WHO Designation :	Beta\nLineage :	B.1.351\nFirst detected :	Nelson Mandela Bay, South Africa\nDate reported :	July 2020")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 def Gama(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="In January 2021, experts spotted this COVID-19 variant in people from Brazil who'd traveled to Japan. By the end of that month, it was showing up in the U.S.The Gamma variant appears to be more contagious than earlier strains of the virus. And it may be able to infect people who've already had COVID-19. A report from Brazil confirms that a 29-year-old woman came down with this variant after an earlier coronavirus infection a few months before.")
     bot.message.reply_text("WHO Designation :	Gamma\nLineage :	P.1\nOther Names : 20J/501Y.V3, Variant of Concern 202101/02 (VOC-202101/02), Brazilian variant or Brazil variant\nFirst detected	: Tokyo, Japan\nDate reported	: January 2021")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
-def Delta((bot,update):
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
+def Delta(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="This variant was spotted in India in December 2020. It caused a huge surge in cases in mid-April 2021. This highly contagious variant is now found in 178 countries including the U.S., the U.K., Australia, and all of Europe. It's the dominant strain in the U.S. and the U.K.The variant is thought to be partly responsible for India's deadly second wave of the pandemic beginning in February 2021")
     bot.message.reply_text("WHO Designation :	Delta\nLineage : B.1.617.2\nFirst detected : India\nDate reported	: December 2020")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 def Mu(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="Experts first spotted this COVID-19 variant (pronounced m'yoo) in Colombia in January 2021. Since then, countries in South America and Europe have reported outbreaks of Mu. In the U.S., the CDC says Mu reached a peak in June 2021, when it made up less than 5% of variants going around the country. As of early September, it had been steadily declining. Still, scientists continue to track Mu.")
     bot.message.reply_text("WHO Designation :	Mu variant\nLineage :B.1.621 or VUI-21JUL-1\nFirst detected : Colombia\nDate reported : January 2021")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 def Omicron(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="Experts in South Africa first reported the Omicron variant to the World Health Organization (WHO) on Nov. 24, 2021. They discovered the variant after COVID-19 infections suddenly began to go up.The WHO grouped Omicron as a Variant of Concern. This category means the variant might have a higher transmissibility, cause more intense disease, and may be less likely to respond to vaccines or treatments.") 
     bot.message.reply_text("WHO Designation :	Omicron\nLineage :	B1.1.529\nFirst detected : South Africa\nDate reported : November 2021")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 def Mutation(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="Coronaviruses have all their genetic material in something called RNA (ribonucleic acid). RNA has some similarities to DNA, but they aren't the same. When viruses infect you, they attach to your cells, get inside them, and make copies of their RNA, which helps them spread. If there's a copying mistake, the RNA gets changed. Scientists call those changes mutations.These changes happen randomly and by accident. It's a normal part of what happens to viruses as they multiply and spread.Because the changes are random, they may make little to no difference in a person's health. Other times, they may cause disease. For example, one reason you need a flu shot every year is because influenza viruses change from year to year. This year's flu virus probably isn't the exact same one that circulated last year. If a virus has a random change that makes it easier to infect people and it spreads, that variant will become more common. The bottom line is that all viruses, including coronaviruses, can change over time.       
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")      
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")      
           
 def yes(bot,update):
     chat_id = bot.message.chat_id 
@@ -95,7 +95,7 @@ def precautions(bot,update):
     chat_id = bot.message.chat_id
     update.bot.sendPhoto(chat_id=chat_id, photo="https://i.pinimg.com/originals/f3/98/37/f39837e2c85756f8b7a2bd39bd9c3024.jpg",caption="Please wear a mask while you step out!\n")
     bot.message.reply_text(text="To prevent the spread of COVID-19:\n*Clean your hands often\n Use soap and water, or an alcohol-based hand rub.\n*Maintain distance from anyone who is coughing or sneezing.\n*Wear a mask when physical distancing is not possible.\n*Don’t touch your eyes, nose or mouth.\n*Stay home when you feel unwell.\n*If you have a fever, cough and difficulty breathing, seek medical attention.")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
    
 def mental_health(bot,update):
     chat_id = bot.message.chat_id
@@ -112,7 +112,7 @@ def happy(bot,update):
     update.bot.sendPhoto(chat_id=chat_id,photo="https://cdn.w600.comps.canstockphoto.com/be-happy-smiley-clipart_csp10100718.jpg")
     bot.message.reply_text("It's good to know that you are in a happy state of mind")
     bot.message.reply_text(text="Happiness is always a choice, so choose to be happy, keep smiling!")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 '''                           
 def sad(bot,update):
     chat_id = bot.message.chat_id
@@ -150,14 +150,14 @@ def sanitizer(bot,update):
     update.bot.sendPhoto(chat_id=chat_id,photo="https://media1.fdncms.com/rochester/imager/u/original/11617421/sanitizer.jpg")
     bot.message.reply_text("click below to shop")
     bot.message.reply_text(text= "https://www.amazon.in/sanitizer/s?k=sanitizer")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
       
 def gloves(bot,update):
     chat_id = bot.message.chat_id
     update.bot.sendPhoto(chat_id=chat_id,photo="https://cdn.shopify.com/s/files/1/0971/2990/products/Screenshot_20200329-173805_AliExpress_large.jpg?v=1585481715")
     bot.message.reply_text("click below to shop")
     bot.message.reply_text(text= "https://www.amazon.in/hand-gloves/s?k=hand+gloves")
-    bot.message.reply_text(text="Do you want to continue texting with me? /yes or /no")
+    bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 
 def message(bot,update):
     chat_id = bot.message.chat_id
