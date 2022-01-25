@@ -101,11 +101,11 @@ def mental_health(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="select your suitable mood right now")
     bot.message.reply_text("/happy")
-    #bot.message.reply_text("/sad")
-    #bot.message.reply_text("/bored")
-    #bot.message.reply_text("/sleep_deprived")
-    #bot.message.reply_text("/angry")
-    #bot.message.reply_text("/nervous")
+    bot.message.reply_text("/sad")
+    bot.message.reply_text("/bored")
+    bot.message.reply_text("/sleep_deprived")
+    bot.message.reply_text("/angry")
+    bot.message.reply_text("/nervous")
     
 def happy(bot,update):
     chat_id = bot.message.chat_id
@@ -116,12 +116,12 @@ def happy(bot,update):
 
 def sad(bot,update):
     chat_id = bot.message.chat_id
-    bot.message.reply_text("It is ok to feel sad, many people are sailing in the same boat, you are not alone")
+    bot.message.reply_text("Some scenarios make us feel bad, many people are sailing in the same boat, you are not alone")
     bot.message.reply_text("Everything changes with time, Nothing is permanent but your willpower matters")
     bot.message.reply_text("Remember that GOOD MENTAL HEALTH IMPROVES THE OVERALL QUALITY OF LIFE")
     bot.message.reply_text("IT IS OK TO TALK IT OUT")
     bot.message.reply_text("If you are feeling depressed, please feel free to contact any of the below mentioned contacts for personalized support")
-    bot.message.reply_text("Parivarthan:- 080- 65333323")
+    bot.message.reply_text("Parivarthan:- 080 65333323")
     bot.message.reply_text("NIMHANS:- 080 46110007")
     bot.message.reply_text("Roshni Trust:- 4066202000/2001")
     bot.message.reply_text("Asra:- 9820466726")
@@ -129,12 +129,14 @@ def sad(bot,update):
 
 def bored(bot,update):
     chat_id = bot.message.chat_id
-    bot.message.reply_text("I would suggest you some activities to get rid of your boredom.")
+    bot.message.reply_text("I would like to suggest you some activities to get rid of your boredom.")
     #bot.message.reply_text("Reading is important. If you know how to read, then the whole world opens up to you – Barack Obama")
     #bot.message.reply_text("Read a good book.....A word after a word after a word is power. It has the power to make your mind and heart free")
-    bot.message.reply_text("Watch TED Talks. Get inspired by watching TED Talks.")
-    bot.message.reply_text("Learn a new language, its fun.")
-    bot.message.reply_text("Write in your journal. It’s a wonderful way to document your life\nHave a power nap, so you'll feel charged up later on.")
+    bot.message.reply_text("Watch TED Talks and you will get inspired by those real life experiences")
+    bot.message.reply_text("Learn a new language, its fun")
+    bot.message.reply_text("Spend your time embracing the nature")
+    bot.message.reply_text("Write in your journal. It’s a wonderful way to document your life.")
+    bot.message.reply_text("Have a power nap, so you'll feel charged up.")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
    
 def sleep_deprived(bot,update):
@@ -150,7 +152,7 @@ def sleep_deprived(bot,update):
 def angry(bot,update):
     chat_id = bot.message.chat_id
     #update.bot.sendPhoto(chat_id=chat_id,photo="")
-    bot.message.reply_text("Anger is a weakness. When anger is recurrent and unmanaged, overall quality of life gets affected")
+    bot.message.reply_text("Anger is a weakness. When anger is recurrent and unmanaged, it can lead to physical effects.")
     bot.message.reply_text("Think before you speak")
     bot.message.reply_text("Use humor to release tension")
     bot.message.reply_text("Get some exercise")
@@ -160,11 +162,11 @@ def angry(bot,update):
 def nervous(bot,update):
     chat_id = bot.message.chat_id
     update.bot.sendPhoto(chat_id=chat_id,photo="")
-    bot.message.reply_text("Choose courage over being nervous. Emotions are never permanent") 
+    bot.message.reply_text("Choose courage over nervousness. Emotions are never permanent") 
     bot.message.reply_text("Change your focus")
     bot.message.reply_text("Relax your body")
-    bot.message.reply_text("Get some fresh air, Think you can do it!")
-    bot.message.reply_text("Fuel your body")
+    bot.message.reply_text("Get some fresh air, think you can do it!")
+    bot.message.reply_text("Fuel your body with some positivity. You can defnitely overcome fear and complete any given task.")
     #bot.message.reply_text("Identify pressure points to calm anger and anxiety")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
     
