@@ -17,7 +17,7 @@ def start(bot,update):
     bot.message.reply_text("type /precautions to know about the precationary measures")
     bot.message.reply_text("type /mental_health to check upon your well being")
     bot.message.reply_text("type /shopping to shop medical items")
-    bot.message.reply_text("type /message to view message to the public")
+    #bot.message.reply_text("type /message to view message to the public")
 
 def covid_info(bot,update):
 
