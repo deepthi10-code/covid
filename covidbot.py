@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters 
  
 def start(bot,update): 
- 
+  
     chat_id = bot.message.chat_id     
     bot.message.reply_text("HI, I'M COVID BOT")
     bot.message.reply_text("type /covid_info to know about the virus and variants")
