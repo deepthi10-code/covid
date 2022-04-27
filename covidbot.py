@@ -30,7 +30,7 @@ def covid_info(bot,update):
 def Alpha(bot,update):
     chat_id = bot.message.chat_id 
     bot.message.reply_text(text="In late 2020, experts noted gene mutations in COVID-19 cases seen in people in southeastern England. This variant has since been reported in other countries, including the U.S. Scientists estimate that these mutations could make the virus up to 70% more transmissible, meaning it could spread more easily. Some research has linked this variant to a higher risk of death, but the evidence isn't strong.The mutation on the Alpha variant is on the spike protein, which helps the virus infect its host.")
-    bot.message.reply_text("WHO Designation :	Alpha\nLineage :	B1.1.1.7\nFirst detected : United Kingdom\nDate reported : November 2020")
+    bot.message.reply_text("WHO Designation :	Alpha\nLineage : B1.1.1.7\nFirst detected : United Kingdom\nDate reported : November 2020")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 def Beta(bot,update):
     chat_id = bot.message.chat_id
@@ -40,7 +40,7 @@ def Beta(bot,update):
 def Gama(bot,update):
     chat_id = bot.message.chat_id
     bot.message.reply_text(text="In January 2021, experts spotted this COVID-19 variant in people from Brazil who'd traveled to Japan. By the end of that month, it was showing up in the U.S.The Gamma variant appears to be more contagious than earlier strains of the virus. And it may be able to infect people who've already had COVID-19. A report from Brazil confirms that a 29-year-old woman came down with this variant after an earlier coronavirus infection a few months before.")
-    bot.message.reply_text("WHO Designation :	Gamma\nLineage :	P.1\nOther Names : 20J/501Y.V3, Variant of Concern 202101/02 (VOC-202101/02), Brazilian variant or Brazil variant\nFirst detected	: Tokyo, Japan\nDate reported	: January 2021")
+    bot.message.reply_text("WHO Designation :	Gamma\nLineage : P.1\nOther Names : 20J/501Y.V3, Variant of Concern 202101/02 (VOC-202101/02), Brazilian variant or Brazil variant\nFirst detected	: Tokyo, Japan\nDate reported	: January 2021")
     bot.message.reply_text(text="Do you want to continue texting with me?\n/yes or /no")
 def Delta(bot,update):
     chat_id = bot.message.chat_id
